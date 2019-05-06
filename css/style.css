@@ -159,8 +159,7 @@ progress[value]::-webkit-progress-value {
 }
 
 .node {
-    width: fit-content;
-    margin: 8px;
+    padding: 2px 8px;
 }
 
 .text {
