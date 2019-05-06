@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 #d2d2d2;
+    transition: 0.3s;
+    border-radius: 5px;
+    background: #fff;
+} 
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 #d2d2d2;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2f2f2;
+    height: -webkit-fill-available;
+}
+
+.demographic {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.heading {
+    flex: 1 1 auto;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+/* Contact section */
+.contact {
+    margin-left: 250px;
+    display: flex;
+}
+
+.contact-column {
+    margin-left: 20px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/* Contact element */
+.contactItem {
+    margin-bottom: 2px;
+}
+
+.contactItem .icon {
+    background: black;
+    padding: 4px 8px;
+    color: white;
+    width: 12px;
+    height: 18px;
+}
+
+.contactItem .desc {
+    font-weight: 200;
+    margin: 0 4px;
+}
+
+.container .resume {
+    padding: 32px;
+    height: fit-content;
+}
+
+.container .resume .name {
+    color: white;
+    background: black;
+    text-transform: uppercase;
+    margin: 0px 0 2px 0;
+    padding: 0 4px;
+    width: fit-content;
+    font-size: 2.5rem;
+}
+
+.container .resume .position {
+    color: black;
+    margin: 8px 0;
+    font-weight: 300;
+    letter-spacing: 0.02rem;
+}
