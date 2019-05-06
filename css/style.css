@@ -117,9 +117,7 @@ body {
 }
 
 .skill {
-    display: flex;
     margin-bottom: 4px;
-
 }
 
 .skill-name {
@@ -145,4 +143,35 @@ progress[value]::-webkit-progress-bar {
 
 progress[value]::-webkit-progress-value {
     background: black;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* Other skills */
+.other-skills {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.node {
+    width: fit-content;
+    margin: 8px;
+}
+
+.text {
+    font-weight: 300;
+    text-align: center;
+}
+
+.circle {
+    margin-top: 8px;
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    border-radius: 50%;
 }
