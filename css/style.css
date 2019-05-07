@@ -131,10 +131,10 @@ body {
 
 /* Animations */
 @keyframes bar-expand {
-    0%   {background-color: white; -webkit-transform: scaleX( 0 );-moz-transform: scaleX( 0 );-o-transform: scaleX( 0 );-ms-transform: scaleX( 0 );transform: scaleX( 0 );}
-    /* 25%  {background-color: lightgray; -webkit-transform: scaleX( 0.25 );-moz-transform: scaleX( 0.25 );-o-transform: scaleX( 0.25 );-ms-transform: scaleX( 0.25 );transform: scaleX( 0.25 );}
-    50%  {background-color: gray; -webkit-transform: scaleX( 0.5 );-moz-transform: scaleX( 0.5 );-o-transform: scaleX( 0.5 );-ms-transform: scaleX( 0.5 );transform: scaleX( 0.5 );} */
-    100% {background-color: black; -webkit-transform: scaleX( 1 );-moz-transform: scaleX( 1 );-o-transform: scaleX( 1 );-ms-transform: scaleX( 1 );transform: scaleX( 1 );}
+    0%   {background-color: white; transform-origin: top left; -webkit-transform: scaleX( 0 );-moz-transform: scaleX( 0 );-o-transform: scaleX( 0 );-ms-transform: scaleX( 0 );transform: scaleX( 0 );}
+    /* 25%  {background-color: lightgray; transform-origin: top left; -webkit-transform: scaleX( 0.25 );-moz-transform: scaleX( 0.25 );-o-transform: scaleX( 0.25 );-ms-transform: scaleX( 0.25 );transform: scaleX( 0.25 );}
+    50%  {background-color: gray; transform-origin: top left; -webkit-transform: scaleX( 0.5 );-moz-transform: scaleX( 0.5 );-o-transform: scaleX( 0.5 );-ms-transform: scaleX( 0.5 );transform: scaleX( 0.5 );} */
+    100% {background-color: black; transform-origin: top left;  -webkit-transform: scaleX( 1 );-moz-transform: scaleX( 1 );-o-transform: scaleX( 1 );-ms-transform: scaleX( 1 );transform: scaleX( 1 );}
 }
 
 progress[value] {
@@ -144,7 +144,7 @@ progress[value] {
     -webkit-appearance: none !important;
     appearance: none;
     border: none;
-    animation: bar-expand 3s ease 1s 1 normal;
+    animation: bar-expand 2s ease 1s 1 normal;
     animation-fill-mode: both;
 }
 
@@ -192,6 +192,6 @@ progress[value]::-webkit-progress-value {
     width: 60px;
     background-color: black;
     border-radius: 50%;
-    animation: circle-expand 3s ease 1s 1 normal;
+    animation: circle-expand 2s ease 1s 1 normal;
     animation-fill-mode: both;
 }
