@@ -61,6 +61,8 @@ body {
 .contactItem .desc {
     font-weight: 200;
     margin: 0 4px;
+    text-decoration: none;
+    color: black;
 }
 
 .container .resume {
@@ -144,7 +146,7 @@ progress[value] {
     -webkit-appearance: none !important;
     appearance: none;
     border: none;
-    animation: bar-expand 2s ease 1s 1 normal;
+    animation: bar-expand 2s ease-in 0.5s 1 normal;
     animation-fill-mode: both;
 }
 
@@ -192,6 +194,6 @@ progress[value]::-webkit-progress-value {
     width: 60px;
     background-color: black;
     border-radius: 50%;
-    animation: circle-expand 2s ease 1s 1 normal;
+    animation: circle-expand 2s ease-in 0.5s 1 normal;
     animation-fill-mode: both;
 }
