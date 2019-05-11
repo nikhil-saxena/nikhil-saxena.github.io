@@ -57,13 +57,19 @@ body {
     color: white;
     width: 12px;
     height: 18px;
+    float: left;
 }
 
 .contactItem .desc {
     font-weight: 200;
-    margin: 0 4px;
     text-decoration: none;
     color: black;
+}
+
+.contactItem .desc .contact-text {
+    padding-left: 8px;
+    display: block;
+    overflow: hidden;
 }
 
 .container .resume {
