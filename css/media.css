@@ -28,4 +28,8 @@
     progress[value] {
         width: 150px;
     }
+
+    .other-skills {
+        flex-flow: row wrap;
+    }
   }

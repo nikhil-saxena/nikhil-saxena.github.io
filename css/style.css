@@ -174,12 +174,15 @@ progress[value]::-webkit-progress-value {
 }
 
 .node {
-    padding: 2px 8px;
+    margin: 2px 8px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
 }
 
 .text {
     font-weight: 300;
-    text-align: center;
+    align-self: center;
 }
 
 /* Animations */
