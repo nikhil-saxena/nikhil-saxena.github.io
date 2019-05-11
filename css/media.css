@@ -1,6 +1,5 @@
 @media only screen and (max-width: 600px) {
     body {
-      background-color: lightblue;
       font-size: 12px;
     }
 
@@ -26,7 +25,7 @@
     }
 
     progress[value] {
-        width: 150px;
+        width: 180px;
     }
 
     .other-skills {
