@@ -1,0 +1,31 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      font-size: 12px;
+    }
+
+    .demographic {
+        flex-flow: column wrap;
+    }
+
+    .contact {
+        margin-top: 32px;
+        margin-left: 0;
+    }
+
+    .intro {
+        flex-flow: column wrap;
+    }
+
+    .about-text {
+        width: auto;
+    }
+
+    .skills {
+        margin: 20px 0 0 0;
+    }
+
+    progress[value] {
+        width: 150px;
+    }
+  }
