@@ -232,7 +232,7 @@ progress[value]::-webkit-progress-value {
     cursor: pointer;
 }
 
-.float-footer a i{
+.float-footer .icon{
     color: white;
     font-size: 40px;
 }
