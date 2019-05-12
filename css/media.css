@@ -3,6 +3,10 @@
       font-size: 12px;
     }
 
+    .container .resume {
+        padding: 16px;
+    }
+
     .demographic {
         flex-flow: column wrap;
     }
@@ -21,14 +25,32 @@
     }
 
     .skills {
-        margin: 20px 0 0 0;
+        margin: 20px auto 0 auto;
+    }
+
+    progress[value] {
+        width: 180px;
+    }
+/* 
+    .other-skills {
+        flex-flow: row wrap;
+    } */
+  }
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .contact {
+        margin-left: 0;
     }
 
     progress[value] {
         width: 180px;
     }
 
-    .other-skills {
-        flex-flow: row wrap;
+    .about-text {
+        width: 300px;
     }
-  }
+
+    .skills {
+        margin: 32px auto 0 auto;
+    }
+}
