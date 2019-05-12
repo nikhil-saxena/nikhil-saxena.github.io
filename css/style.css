@@ -213,6 +213,14 @@ progress[value]::-webkit-progress-value {
     animation-fill-mode: both;
 }
 
+/* Animations */
+@keyframes download-bounce {
+    0%   {transform-origin: center center; -webkit-transform: translateY( 0px );-moz-transform: translateY( 0px );-o-transform: translateY( 0px );-ms-transform: translateY( 0px );transform: translateY( 0px );}
+    25%  {transform-origin: center center; -webkit-transform: translateY( -20px );-moz-transform: translateY( -20px );-o-transform: translateY( -20px );-ms-transform: translateY( -20px );transform: translateY( -20px );}
+    50%  {transform-origin: center center; -webkit-transform: translateY( 10px );-moz-transform: translateY( 10px );-o-transform: translateY( 10px );-ms-transform: translateY( 10px );transform: translateY( 10px );}
+    100% {transform-origin: center center; -webkit-transform: translateY( 0px );-moz-transform: translateY( 0px );-o-transform: translateY( 0px );-ms-transform: translateY( 0px );transform: translateY( 0px );}
+}
+
 
 /* Float resume download */
 .float-footer {
@@ -230,6 +238,7 @@ progress[value]::-webkit-progress-value {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    animation: download-bounce 1.5s ease 2.5s 3 normal;
 }
 
 .float-footer .icon{
