@@ -39,14 +39,9 @@ body {
 }
 
 .contact-column {
-    margin-left: 20px;
     display: flex;
     flex-flow: column nowrap;
     width: -webkit-fill-available;
-}
-
-.contact-column:first-child {
-    margin-left: 0px;
 }
 
 /* Contact element */
@@ -213,4 +208,23 @@ progress[value]::-webkit-progress-value {
     border-radius: 50%;
     animation: circle-expand 2s ease-in 0.5s 1 normal;
     animation-fill-mode: both;
+}
+
+
+/* Float resume download */
+.float-footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 24px;
+    padding: 16px;
+    box-shadow: 0 4px 8px 0 #d2d2d2;
+    transition: 0.3s;
+    border-radius: 100%;
+    background: #2DA953;
+}
+
+.float-footer a i{
+    color: white;
+    font-size: 16px;
 }
