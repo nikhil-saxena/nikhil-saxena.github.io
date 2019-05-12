@@ -31,10 +31,10 @@
     progress[value] {
         width: 180px;
     }
-/* 
-    .other-skills {
-        flex-flow: row wrap;
-    } */
+
+    .container .resume .name {
+        width: auto;
+    }
   }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
