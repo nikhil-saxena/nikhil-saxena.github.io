@@ -34,12 +34,14 @@ body {
 .contact {
     margin-left: 250px;
     display: flex;
+    justify-content: space-between;
 }
 
 .contact-column {
     margin-left: 20px;
     display: flex;
     flex-flow: column wrap;
+    width: -webkit-fill-available;
 }
 
 .contact-column:first-child {
