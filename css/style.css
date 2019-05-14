@@ -34,27 +34,33 @@ body {
 /* Contact section */
 .contact {
     display: flex;
-    flex: 1 1 auto;
     justify-content: space-between;
 }
 
 .contact-column {
     display: flex;
     flex-flow: column nowrap;
-    width: -webkit-fill-available;
+}
+
+.contact-column:first-child {
+    margin-right: 16px;
 }
 
 /* Contact element */
 .contactItem {
     margin-bottom: 2px;
+    display: flex;
+    align-items: center;
 }
 
 .contactItem .icon {
     background: black;
-    padding: 4px 8px;
+    padding: 4px;
     color: white;
-    width: 12px;
-    height: 18px;
+    min-width: 16px;
+    min-height: 16px;
+    width: 16px;
+    height: 16px;
     float: left;
     display: flex;
     justify-content: center;
@@ -65,10 +71,12 @@ body {
     font-weight: 200;
     text-decoration: none;
     color: black;
+    display: flex;
+    align-items: center;
 }
 
 .contactItem .desc .contact-text {
-    padding-left: 8px;
+    padding: 0 8px;
     display: block;
     overflow: hidden;
     word-break: break-all;
